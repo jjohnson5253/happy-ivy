@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		713AC83E202D4684000F8C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713AC83C202D4684000F8C71 /* Main.storyboard */; };
 		713AC846202D4684000F8C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713AC844202D4684000F8C71 /* LaunchScreen.storyboard */; };
-		713AC84F202D46A9000F8C71 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713AC84D202D46A9000F8C71 /* Model.xcdatamodeld */; };
 		713AC855202D479A000F8C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713AC854202D479A000F8C71 /* AppDelegate.swift */; };
 		713AC857202D47C2000F8C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713AC856202D47C2000F8C71 /* Assets.xcassets */; };
 		713AC85C202D47D6000F8C71 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713AC859202D47D6000F8C71 /* NewUserViewController.swift */; };
 		713AC85D202D47D6000F8C71 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713AC85A202D47D6000F8C71 /* InitialViewController.swift */; };
 		713AC85E202D47D6000F8C71 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713AC85B202D47D6000F8C71 /* PlantViewController.swift */; };
+		7186457B202EA81E0098921F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71864579202EA81E0098921F /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,12 @@
 		713AC83D202D4684000F8C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		713AC845202D4684000F8C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		713AC847202D4684000F8C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		713AC84E202D46A9000F8C71 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		713AC854202D479A000F8C71 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713AC856202D47C2000F8C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713AC859202D47D6000F8C71 /* NewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
 		713AC85A202D47D6000F8C71 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		713AC85B202D47D6000F8C71 /* PlantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
+		7186457A202EA81E0098921F /* Model1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model1.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				713AC856202D47C2000F8C71 /* Assets.xcassets */,
 				713AC844202D4684000F8C71 /* LaunchScreen.storyboard */,
 				713AC847202D4684000F8C71 /* Info.plist */,
-				713AC84D202D46A9000F8C71 /* Model.xcdatamodeld */,
+				71864579202EA81E0098921F /* Model.xcdatamodeld */,
 			);
 			path = "happy-ivy";
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 				713AC85C202D47D6000F8C71 /* NewUserViewController.swift in Sources */,
 				713AC85E202D47D6000F8C71 /* PlantViewController.swift in Sources */,
 				713AC85D202D47D6000F8C71 /* InitialViewController.swift in Sources */,
-				713AC84F202D46A9000F8C71 /* Model.xcdatamodeld in Sources */,
+				7186457B202EA81E0098921F /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,14 +344,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		713AC84D202D46A9000F8C71 /* Model.xcdatamodeld */ = {
+		71864579202EA81E0098921F /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				713AC84E202D46A9000F8C71 /* Model.xcdatamodel */,
+				7186457A202EA81E0098921F /* Model1.xcdatamodel */,
 			);
-			currentVersion = 713AC84E202D46A9000F8C71 /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = "../../../happyivy2/Happy-Ivy/happy-ivy/Model.xcdatamodeld";
+			currentVersion = 7186457A202EA81E0098921F /* Model1.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
